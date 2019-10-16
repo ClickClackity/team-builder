@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.team-members .App {
+  border: 1px solid black;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+
+.registration-container
+{
+  display:flex;
+  justify-content: center;
+  margin:0 auto;
+}
+
+.registration-form{
+  display:flex;
+  flex-direction: column;
+  align-items:flex-end;
+}
+
+.registration-form button{
+  height:40px;
+  width:100%;
+  margin-top: 5px;
+}
+
+.team-members {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px;
+}
